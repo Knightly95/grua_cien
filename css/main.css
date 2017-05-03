@@ -1,0 +1,127 @@
+body{
+	font-family: Oswald;
+	font-style: normal;
+	font-variant: normal;
+}
+#myCarousel{
+	height: 60vh;
+	line-height: 60vh;
+}
+.navbar.navbar-default{
+	height: 9vh;
+}
+.car-img{
+	height: inherit!important;
+	min-width: 100%;
+}
+.item{
+	height: inherit!important;
+}
+.carousel-inner{
+	height: inherit;
+}
+.carousel .container {
+  position: relative;
+  z-index: 9;
+  line-height: 60vh;
+}
+.carousel-control {
+  margin-top: 0;
+  font-size: 120px;
+  border: 0;
+  z-index: 10;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none!important;
+    line-height: 3;
+    vertical-align: middle;
+}
+.carousel-control.left > img, .carousel-control.right > img {
+    height: 30px;
+}
+.carousel-indicators{
+    bottom: -190px;
+    padding-left: 0!important;
+}
+.contact-info{
+	min-height: 90vh;
+	background-color: #e1b971;
+	min-width: 100%;
+}
+.container-form{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.img-menu{
+	width:18vw;
+	margin: 0 auto;
+}
+.img-menu-text{
+	height: 2em;
+    margin: 10px auto;
+}
+.menu{
+	background-color: #00a845;
+	padding: 0;
+}
+.inner-back{
+	background-color: white;
+	margin:10px 0 10px 0;
+	padding: 20px 10px 15px 10px;
+}
+.contactanos{
+	height: 20vh;
+	background-color: #3a4993;
+	background-image: url("../assets/img/tracktires.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-text{
+	color: white;
+	font-weight: bold;
+	margin:0;
+}
+.el{
+	padding: 40px 0;
+}
+.contact-el{
+	margin: 0px;
+	width: inherit;
+	padding: 10px;
+}
+.redes {
+	background-color: #00a845;
+	display: flex;
+	width: 100px;
+	justify-content: center;
+	margin-right: 20px;
+	float: right!important;
+}
+.redes > img {
+	display: inline-flex;
+	height: 25px;
+	margin: 3px;
+}
+.btn-grua{
+	background-image: url("../assets/img/envelope.png");
+	background-color: #3a4993;
+	background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border:none;
+    width: 55px;
+}
+input {
+	height: 32px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding: 2px;
+}
+.enviar-text{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
