@@ -4,8 +4,8 @@ body{
 	font-variant: normal;
 }
 #myCarousel{
-	height: 60vh;
-	line-height: 60vh;
+	height: 65vh;
+	line-height: 65vh;
 }
 .navbar.navbar-default{
 	height: 9vh;
@@ -40,8 +40,9 @@ body{
     height: 30px;
 }
 .carousel-indicators{
-    bottom: -190px;
-    padding-left: 0!important;
+    height: 20px;
+    display: flex;
+    justify-content: center;
 }
 .contact-info{
 	min-height: 90vh;
@@ -56,7 +57,7 @@ body{
     margin-bottom: 20px;
 }
 .img-menu{
-	width:18vw;
+	width:120px;
 	margin: 0 auto;
 }
 .img-menu-text{
@@ -73,7 +74,7 @@ body{
 	padding: 20px 10px 15px 10px;
 }
 .contactanos{
-	height: 20vh;
+	height: 17vh;
 	background-color: #3a4993;
 	background-image: url("../assets/img/tracktires.png");
 	background-repeat: no-repeat;
@@ -85,7 +86,7 @@ body{
 	margin:0;
 }
 .el{
-	padding: 40px 0;
+	padding: 24px 0;
 }
 .contact-el{
 	margin: 0px;
@@ -124,4 +125,21 @@ input {
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
+}
+.guy {
+	background-color: #3a4993;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.tow {
+	background-color: #2ca737;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.ending {
+	height: 50px;
+	background-color: #2ca737;
+}
+.inner-back > .col-sm-4{
+	cursor:pointer;
 }

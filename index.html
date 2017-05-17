@@ -5,7 +5,7 @@
 	<title>Grua 100%</title>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -32,21 +32,17 @@
 	</div>
 	<div class="container-fluid menu">
 		<div class="row inner-back">
-			<div class="col-sm-3">
+			<div class="col-sm-4" onclick="location.href='./servicios.html';">
 				<img src="assets/img/servicios.png" alt="Servicios" class="img img-responsive img-menu">
 				<img src="assets/img/Servicios.png" alt="Servicios" class="img img-responsive img-menu-text">
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-4" onclick="location.href='./grueros.html';">
 				<img src="assets/img/grueros.png" alt="Grueros" class="img img-responsive img-menu">
 				<img src="assets/img/Grueros.png" alt="Grueros" class="img img-responsive img-menu-text">
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-4" onclick="location.href='./index.html';">
 				<img src="assets/img/nosotros.png" alt="Nosotros" class="img img-responsive img-menu">
 				<img src="assets/img/Nosotros.png" alt="Nosotros" class="img img-responsive img-menu-text">
-			</div>
-			<div class="col-sm-3">
-				<img src="assets/img/blog.png" alt="Blog" class="img img-responsive img-menu">
-				<img src="assets/img/Blog.png" alt="Blog" class="img img-responsive img-menu-text" style="margin-top: 13px;height: 2.2em">
 			</div>
 		</div>
 	</div>
@@ -54,27 +50,32 @@
 		<img src="assets/img/formarparte.jpg" alt="Quieres formar parte de nuestro equipo de grueros?" class="img-responsive">
 	</div>
 	<div class="contactanos">
-		<div class="redes">
-			<img src="assets/img/facebook.png" alt="Facebook" class="img img-responsive">
-			<img src="assets/img/twitter.png" alt="Twitter" class="img img-responsive">
-			<img src="assets/img/instagram.png" alt="Instagram" class="img img-responsive">
+		<div class="container">
+			<div class="redes">
+				<img src="assets/img/facebook.png" alt="Facebook" class="img img-responsive">
+				<img src="assets/img/twitter.png" alt="Twitter" class="img img-responsive">
+				<img src="assets/img/instagram.png" alt="Instagram" class="img img-responsive">
+			</div>
+			<div class="el">
+				<div class="col-sm-3 contact-el"><h3 class="contact-text">Contáctanos</h2></div>
+				<div class="col-sm-2 contact-el">
+					<input type="text" placeholder="Nombre">
+				</div>
+				<div class="col-sm-2 contact-el">
+					<input type="email" placeholder="Email">
+				</div>
+				<div class="col-sm-2 contact-el">
+					<input type="text" placeholder="Mensaje">
+				</div>
+				<div class="col-sm-2 contact-el">
+					<input class="btn btn-grua" type="submit" value="">
+					<p><span class="enviar-text">Enviar</span></p>
+				</div>
+			</div>
 		</div>
-		<div class="el">
-			<div class="col-sm-3 contact-el"><h3 class="contact-text">Contáctanos</h2></div>
-			<div class="col-sm-2 contact-el">
-				<input type="text" placeholder="Nombre">
-			</div>
-			<div class="col-sm-2 contact-el">
-				<input type="email" placeholder="Email">
-			</div>
-			<div class="col-sm-2 contact-el">
-				<input type="text" placeholder="Mensaje">
-			</div>
-			<div class="col-sm-2 contact-el">
-				<input class="btn btn-grua" type="submit" value="">
-				<p><span class="enviar-text">Enviar</span></p>
-			</div>
-		</div>
-	</div>	
+	</div>
+	<script>
+		$("#myCarousel").carousel();
+	</script>
 </body>
 </html>
